@@ -1,0 +1,313 @@
+Started GET "/" for ::1 at 2025-03-03 21:02:39 -0500
+  [1m[35m (266.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='BackendApi'*/[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='BackendApi'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BackendApi'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 7900ms (Views: 577.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/icon.png" for ::1 at 2025-03-03 21:03:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/icon.png"):
+  
+Started GET "/" for ::1 at 2025-03-03 21:08:42 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/icon.png" for ::1 at 2025-03-03 21:09:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/icon.png"):
+  
+Started GET "/products" for ::1 at 2025-03-03 21:21:49 -0500
+Started GET "/cart" for ::1 at 2025-03-03 21:21:49 -0500
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by CartController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2025-03-03 21:30:33 -0500
+Started GET "/cart" for ::1 at 2025-03-03 21:30:33 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/cart" for ::1 at 2025-03-03 21:40:10 -0500
+Started GET "/products" for ::1 at 2025-03-03 21:40:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BackendApi'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/cart"):
+  
+Processing by ProductsController#index as HTML
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:34 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>2, "cart"=>{"id"=>2}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:37 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:40 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:41 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:41 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:41 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:41 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:42 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:42 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:42 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:42 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:42 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:43 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:43 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:43 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:43 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-03 21:40:43 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/cart" for ::1 at 2025-03-04 09:31:27 -0500
+Started GET "/products" for ::1 at 2025-03-04 09:31:28 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 09:32:11 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>2, "cart"=>{"id"=>2}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 09:32:13 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/cart" for ::1 at 2025-03-04 09:55:07 -0500
+Started GET "/products" for ::1 at 2025-03-04 09:55:07 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 115ms (Views: 114.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2025-03-04 09:55:55 -0500
+Started GET "/cart" for ::1 at 2025-03-04 09:55:56 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2025-03-04 10:03:20 -0500
+Started GET "/cart" for ::1 at 2025-03-04 10:03:21 -0500
+Processing by ProductsController#index as HTML
+Completed 200 OK in 102ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by CartController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2025-03-04 10:04:45 -0500
+Started GET "/cart" for ::1 at 2025-03-04 10:04:45 -0500
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by CartController#index as HTML
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2025-03-04 10:15:16 -0500
+Started GET "/cart" for ::1 at 2025-03-04 10:15:16 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 10:15:39 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 220ms (Views: 60.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/cart" for ::1 at 2025-03-04 10:16:05 -0500
+Started GET "/products" for ::1 at 2025-03-04 10:16:05 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 10:18:19 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 10:18:21 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>2, "cart"=>{"id"=>2}}
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/cart" for ::1 at 2025-03-04 10:47:14 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for ::1 at 2025-03-04 12:02:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (17.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BackendApi'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 2241ms (Views: 464.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/icon.png" for ::1 at 2025-03-04 12:02:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/icon.png"):
+  
+Started GET "/" for ::1 at 2025-03-04 12:03:21 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/railties-8.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2025-03-04 12:03:34 -0500
+Started GET "/cart" for ::1 at 2025-03-04 12:03:34 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 12:03:44 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>1, "cart"=>{"id"=>1}}
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started POST "/cart" for ::1 at 2025-03-04 12:03:46 -0500
+Processing by CartController#add as HTML
+  Parameters: {"id"=>2, "cart"=>{"id"=>2}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/cart" for ::1 at 2025-03-04 12:04:05 -0500
+Started GET "/products" for ::1 at 2025-03-04 12:04:05 -0500
+Processing by CartController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Processing by ProductsController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
