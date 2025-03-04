@@ -84,10 +84,3 @@ tu-repositorio
  ┃ ┗  package.json     # Dependencias de Node.js
  ┗  README.md          # Documentación del proyecto
 ```
-
----
-
-## **Despliegue en Vercel **
-
-Si deseas acceder a la aplicación en línea, visita:  
-🔗 [https://tu-proyecto.vercel.app](https://tu-proyecto.vercel.app)
